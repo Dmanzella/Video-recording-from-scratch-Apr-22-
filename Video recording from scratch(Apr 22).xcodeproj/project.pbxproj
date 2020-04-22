@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E188F4192450D33600DD791F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E188F4182450D33600DD791F /* AppDelegate.swift */; };
+		E188F41B2450D33600DD791F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E188F41A2450D33600DD791F /* SceneDelegate.swift */; };
+		E188F41D2450D33600DD791F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E188F41C2450D33600DD791F /* ViewController.swift */; };
+		E188F4202450D33600DD791F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E188F41E2450D33600DD791F /* Main.storyboard */; };
+		E188F4222450D33800DD791F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E188F4212450D33800DD791F /* Assets.xcassets */; };
+		E188F4252450D33800DD791F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E188F4232450D33800DD791F /* LaunchScreen.storyboard */; };
+		E188F4302450D33800DD791F /* Video_recording_from_scratch_Apr_22_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E188F42F2450D33800DD791F /* Video_recording_from_scratch_Apr_22_Tests.swift */; };
+		E188F43B2450D33800DD791F /* Video_recording_from_scratch_Apr_22_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E188F43A2450D33800DD791F /* Video_recording_from_scratch_Apr_22_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E188F42C2450D33800DD791F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E188F40D2450D33600DD791F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E188F4142450D33600DD791F;
+			remoteInfo = "Video recording from scratch(Apr 22)";
+		};
+		E188F4372450D33800DD791F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E188F40D2450D33600DD791F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E188F4142450D33600DD791F;
+			remoteInfo = "Video recording from scratch(Apr 22)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E188F4152450D33600DD791F /* Video recording from scratch(Apr 22).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video recording from scratch(Apr 22).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E188F4182450D33600DD791F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E188F41A2450D33600DD791F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E188F41C2450D33600DD791F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E188F41F2450D33600DD791F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E188F4212450D33800DD791F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E188F4242450D33800DD791F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E188F4262450D33800DD791F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E188F42B2450D33800DD791F /* Video recording from scratch(Apr 22)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video recording from scratch(Apr 22)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E188F42F2450D33800DD791F /* Video_recording_from_scratch_Apr_22_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_recording_from_scratch_Apr_22_Tests.swift; sourceTree = "<group>"; };
+		E188F4312450D33800DD791F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E188F4362450D33800DD791F /* Video recording from scratch(Apr 22)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video recording from scratch(Apr 22)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E188F43A2450D33800DD791F /* Video_recording_from_scratch_Apr_22_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_recording_from_scratch_Apr_22_UITests.swift; sourceTree = "<group>"; };
+		E188F43C2450D33800DD791F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E188F4122450D33600DD791F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E188F4282450D33800DD791F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E188F4332450D33800DD791F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E188F40C2450D33600DD791F = {
+			isa = PBXGroup;
+			children = (
+				E188F4172450D33600DD791F /* Video recording from scratch(Apr 22) */,
+				E188F42E2450D33800DD791F /* Video recording from scratch(Apr 22)Tests */,
+				E188F4392450D33800DD791F /* Video recording from scratch(Apr 22)UITests */,
+				E188F4162450D33600DD791F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E188F4162450D33600DD791F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E188F4152450D33600DD791F /* Video recording from scratch(Apr 22).app */,
+				E188F42B2450D33800DD791F /* Video recording from scratch(Apr 22)Tests.xctest */,
+				E188F4362450D33800DD791F /* Video recording from scratch(Apr 22)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E188F4172450D33600DD791F /* Video recording from scratch(Apr 22) */ = {
+			isa = PBXGroup;
+			children = (
+				E188F4182450D33600DD791F /* AppDelegate.swift */,
+				E188F41A2450D33600DD791F /* SceneDelegate.swift */,
+				E188F41C2450D33600DD791F /* ViewController.swift */,
+				E188F41E2450D33600DD791F /* Main.storyboard */,
+				E188F4212450D33800DD791F /* Assets.xcassets */,
+				E188F4232450D33800DD791F /* LaunchScreen.storyboard */,
+				E188F4262450D33800DD791F /* Info.plist */,
+			);
+			path = "Video recording from scratch(Apr 22)";
+			sourceTree = "<group>";
+		};
+		E188F42E2450D33800DD791F /* Video recording from scratch(Apr 22)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E188F42F2450D33800DD791F /* Video_recording_from_scratch_Apr_22_Tests.swift */,
+				E188F4312450D33800DD791F /* Info.plist */,
+			);
+			path = "Video recording from scratch(Apr 22)Tests";
+			sourceTree = "<group>";
+		};
+		E188F4392450D33800DD791F /* Video recording from scratch(Apr 22)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E188F43A2450D33800DD791F /* Video_recording_from_scratch_Apr_22_UITests.swift */,
+				E188F43C2450D33800DD791F /* Info.plist */,
+			);
+			path = "Video recording from scratch(Apr 22)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E188F4142450D33600DD791F /* Video recording from scratch(Apr 22) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E188F43F2450D33800DD791F /* Build configuration list for PBXNativeTarget "Video recording from scratch(Apr 22)" */;
+			buildPhases = (
+				E188F4112450D33600DD791F /* Sources */,
+				E188F4122450D33600DD791F /* Frameworks */,
+				E188F4132450D33600DD791F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Video recording from scratch(Apr 22)";
+			productName = "Video recording from scratch(Apr 22)";
+			productReference = E188F4152450D33600DD791F /* Video recording from scratch(Apr 22).app */;
+			productType = "com.apple.product-type.application";
+		};
+		E188F42A2450D33800DD791F /* Video recording from scratch(Apr 22)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E188F4422450D33800DD791F /* Build configuration list for PBXNativeTarget "Video recording from scratch(Apr 22)Tests" */;
+			buildPhases = (
+				E188F4272450D33800DD791F /* Sources */,
+				E188F4282450D33800DD791F /* Frameworks */,
+				E188F4292450D33800DD791F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E188F42D2450D33800DD791F /* PBXTargetDependency */,
+			);
+			name = "Video recording from scratch(Apr 22)Tests";
+			productName = "Video recording from scratch(Apr 22)Tests";
+			productReference = E188F42B2450D33800DD791F /* Video recording from scratch(Apr 22)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E188F4352450D33800DD791F /* Video recording from scratch(Apr 22)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E188F4452450D33800DD791F /* Build configuration list for PBXNativeTarget "Video recording from scratch(Apr 22)UITests" */;
+			buildPhases = (
+				E188F4322450D33800DD791F /* Sources */,
+				E188F4332450D33800DD791F /* Frameworks */,
+				E188F4342450D33800DD791F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E188F4382450D33800DD791F /* PBXTargetDependency */,
+			);
+			name = "Video recording from scratch(Apr 22)UITests";
+			productName = "Video recording from scratch(Apr 22)UITests";
+			productReference = E188F4362450D33800DD791F /* Video recording from scratch(Apr 22)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E188F40D2450D33600DD791F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Derek Manzella";
+				TargetAttributes = {
+					E188F4142450D33600DD791F = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					E188F42A2450D33800DD791F = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = E188F4142450D33600DD791F;
+					};
+					E188F4352450D33800DD791F = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = E188F4142450D33600DD791F;
+					};
+				};
+			};
+			buildConfigurationList = E188F4102450D33600DD791F /* Build configuration list for PBXProject "Video recording from scratch(Apr 22)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E188F40C2450D33600DD791F;
+			productRefGroup = E188F4162450D33600DD791F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E188F4142450D33600DD791F /* Video recording from scratch(Apr 22) */,
+				E188F42A2450D33800DD791F /* Video recording from scratch(Apr 22)Tests */,
+				E188F4352450D33800DD791F /* Video recording from scratch(Apr 22)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E188F4132450D33600DD791F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E188F4252450D33800DD791F /* LaunchScreen.storyboard in Resources */,
+				E188F4222450D33800DD791F /* Assets.xcassets in Resources */,
+				E188F4202450D33600DD791F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E188F4292450D33800DD791F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E188F4342450D33800DD791F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E188F4112450D33600DD791F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E188F41D2450D33600DD791F /* ViewController.swift in Sources */,
+				E188F4192450D33600DD791F /* AppDelegate.swift in Sources */,
+				E188F41B2450D33600DD791F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E188F4272450D33800DD791F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E188F4302450D33800DD791F /* Video_recording_from_scratch_Apr_22_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E188F4322450D33800DD791F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E188F43B2450D33800DD791F /* Video_recording_from_scratch_Apr_22_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E188F42D2450D33800DD791F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E188F4142450D33600DD791F /* Video recording from scratch(Apr 22) */;
+			targetProxy = E188F42C2450D33800DD791F /* PBXContainerItemProxy */;
+		};
+		E188F4382450D33800DD791F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E188F4142450D33600DD791F /* Video recording from scratch(Apr 22) */;
+			targetProxy = E188F4372450D33800DD791F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E188F41E2450D33600DD791F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E188F41F2450D33600DD791F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E188F4232450D33800DD791F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E188F4242450D33800DD791F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E188F43D2450D33800DD791F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E188F43E2450D33800DD791F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E188F4402450D33800DD791F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YT336VYWJS;
+				INFOPLIST_FILE = "Video recording from scratch(Apr 22)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dhdhdhdhdhd.Video-recording-from-scratch-Apr-22-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E188F4412450D33800DD791F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YT336VYWJS;
+				INFOPLIST_FILE = "Video recording from scratch(Apr 22)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dhdhdhdhdhd.Video-recording-from-scratch-Apr-22-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E188F4432450D33800DD791F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YT336VYWJS;
+				INFOPLIST_FILE = "Video recording from scratch(Apr 22)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dhdhdhdhdhd.Video-recording-from-scratch-Apr-22-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Video recording from scratch(Apr 22).app/Video recording from scratch(Apr 22)";
+			};
+			name = Debug;
+		};
+		E188F4442450D33800DD791F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YT336VYWJS;
+				INFOPLIST_FILE = "Video recording from scratch(Apr 22)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dhdhdhdhdhd.Video-recording-from-scratch-Apr-22-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Video recording from scratch(Apr 22).app/Video recording from scratch(Apr 22)";
+			};
+			name = Release;
+		};
+		E188F4462450D33800DD791F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YT336VYWJS;
+				INFOPLIST_FILE = "Video recording from scratch(Apr 22)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dhdhdhdhdhd.Video-recording-from-scratch-Apr-22-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Video recording from scratch(Apr 22)";
+			};
+			name = Debug;
+		};
+		E188F4472450D33800DD791F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YT336VYWJS;
+				INFOPLIST_FILE = "Video recording from scratch(Apr 22)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dhdhdhdhdhd.Video-recording-from-scratch-Apr-22-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Video recording from scratch(Apr 22)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E188F4102450D33600DD791F /* Build configuration list for PBXProject "Video recording from scratch(Apr 22)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E188F43D2450D33800DD791F /* Debug */,
+				E188F43E2450D33800DD791F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E188F43F2450D33800DD791F /* Build configuration list for PBXNativeTarget "Video recording from scratch(Apr 22)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E188F4402450D33800DD791F /* Debug */,
+				E188F4412450D33800DD791F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E188F4422450D33800DD791F /* Build configuration list for PBXNativeTarget "Video recording from scratch(Apr 22)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E188F4432450D33800DD791F /* Debug */,
+				E188F4442450D33800DD791F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E188F4452450D33800DD791F /* Build configuration list for PBXNativeTarget "Video recording from scratch(Apr 22)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E188F4462450D33800DD791F /* Debug */,
+				E188F4472450D33800DD791F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E188F40D2450D33600DD791F /* Project object */;
+}
