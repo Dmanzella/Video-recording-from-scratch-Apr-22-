@@ -8,6 +8,16 @@
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>yes</string>
+	<key>NSCameraUsageDescription</key>
+	<string>yes</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>yes</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>yes</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>yes</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
